@@ -1,0 +1,708 @@
+@page
+{
+        margin: 1.5em;
+}
+body
+{
+        font-family: sans-serif;
+        margin: 0em 1.5em 0em 1.5em;
+}
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+svg
+{
+	height: 98%;
+	width: 100%;
+}
+a
+{
+	text-decoration: none;
+}
+.h2
+{
+	font-size: 150%;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: right;
+}
+.h2a
+{
+	font-size: 180%;
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+	text-align: right;
+}
+.h2e
+{
+	font-size: 150%;
+	margin-top: 2em;
+	margin-bottom: 3em;
+	text-align: right;
+}
+.h2-e
+{
+	font-size: 150%;
+	margin-top: 2em;
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+.h2b
+{
+	font-size: 150%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: left;
+}
+.h2d
+{
+	font-size: 150%;
+	margin-top: 2em;
+	margin-bottom: 5em;
+	text-align: left;
+}
+.h2c
+{
+	font-size: 150%;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: left;
+}
+.toc-sec
+{
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	margin-left: 0em;
+	text-indent: 0em;
+}
+.toc1
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 6.5em;
+	text-indent: -1.7em;
+}
+.toc
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 1.5em;
+	text-indent: 0em;
+}
+.toc-chap
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 0em;
+	text-indent: 0em;
+}
+.toc-chap1
+{
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	margin-left: 0em;
+	text-indent: 0em;
+}
+.h3
+{
+	font-size: 140%;
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+	text-align: right;
+}
+.h4
+{
+	font-size: 110%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: left;
+}
+.h5
+{
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: 1.3em;
+	margin-bottom: 1.2em;
+	text-align: left;
+}
+.h5o
+{
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: 1.3em;
+	margin-bottom: 0.1em;
+	text-align: left;
+}
+.h6
+{
+	font-size: 90%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: left;
+}
+.noindent
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	text-indent: 0.01em;
+}
+.noindenta
+{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-indent: 0.01em;
+}
+.noindent3
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 0.7em;
+	text-indent: 0.01em;
+}
+.noindent4
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 1.3em;
+	text-indent: 0.01em;
+}
+.halftitle
+{
+	font-size: 1.8em;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	text-indent: 0.01em;
+}
+.halftitle1
+{
+	font-size: 1.6em;
+	margin-top: 0em;
+	margin-bottom: 0.7em;
+	text-indent: 0.01em;
+}
+.halftitle2
+{
+	margin-top: 0em;
+	margin-bottom: 1.5em;
+	text-indent: 0.01em;
+}
+.halftitle2b
+{
+	margin-top: 0em;
+	margin-bottom: 3.5em;
+	text-indent: 0.01em;
+}
+.halftitle2a
+{
+	margin-top: 0em;
+	margin-bottom: 1em;
+	text-indent: 0.01em;
+}
+.noindent2
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	margin-left: 0.7em;
+	text-indent: 0.01em;
+}
+.figcap1
+{
+	font-size: 100%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 1.8em;
+	text-indent: -1.1em;
+}
+.figcap1t
+{
+	font-size: 80%;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	margin-left: 1.8em;
+	text-indent: -1.1em;
+}
+.number
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	margin-left: 0.9em;
+	text-indent: -1.1em;
+}
+.numbert
+{
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+	margin-left: 0.9em;
+	text-indent: -1.1em;
+}
+.numbero
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	margin-left: 1.3em;
+	text-indent: -1.1em;
+}
+.numberop
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 1.2em;
+	text-indent: 0.01em;
+}
+.tab_number
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	margin-left: 1.4em;
+	text-indent: -1.1em;
+}
+.number1
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	margin-left: 1.5em;
+	text-indent: -1.7em;
+}
+.numberp
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	margin-left: 0.8em;
+	text-indent: 0em;
+}
+.figcap
+{
+	margin-top: 0em;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+.figcapo
+{
+	font-size: 80%;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 3em;
+	text-indent: -1.2em;
+}
+.figcapo1
+{
+	font-size: 80%;
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+	text-indent: -1.2em;
+}
+.image
+{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+.imaget
+{
+	margin-top: 9em;
+	margin-bottom: 5em;
+	text-align: left;
+}
+.imageta
+{
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	margin-left: 0.1em;
+	text-indent: 0em;
+}
+.imagel
+{
+	margin-top: 3em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.imagela
+{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.bullpt
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.2em;
+	margin-left: 0.7em;
+	text-indent: 0.01em;
+}
+.bullp
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 0.7em;
+	text-indent: 0.01em;
+}
+.bullpb
+{
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+	margin-left: 0.7em;
+	text-indent: 0.01em;
+}
+.bullp1
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 1.4em;
+	text-indent: -0.7em;
+}
+.bull
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-indent: -0.6em;
+}
+.figcapb
+{
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 2.2em;
+	text-indent: -0.6em;
+}
+.alpha
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	margin-left: 2.3em;
+	text-indent: -1em;
+}
+.bullo
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 1.7em;
+	text-indent: -0.6em;
+}
+.bullo-w
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 0.1em;
+	text-indent: -0.6em;
+}
+.tab_bull
+{
+	padding-left: 0.5em;
+	margin-top: 0em;
+	margin-bottom: 0.01em;
+	margin-left: 0.2em;
+	text-indent: -0.6em;
+}
+.tab_bull1
+{
+	padding-left: 0.5em;
+	margin-top: 0em;
+	margin-bottom: 0.01em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.noindenttop
+{
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-indent: 0.01em;
+}
+.noindentt
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.7em;
+	text-indent: 0.01em;
+}
+.note
+{
+	margin-top: 0.8em;
+	margin-bottom: 0.7em;
+	text-indent: 3em;
+}
+.notet
+{
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	margin-left: 3.4em;
+	text-indent: -3.4em;
+}
+.tabcap
+{
+	margin-top: 1em;
+	margin-bottom: 0.7em;
+	text-align: center;
+}
+.tab_noindent
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+
+.tab_noindentz
+{
+	margin-top: 1.6em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+
+.tab_noindenta
+{
+	margin-top: -1.2em;
+	margin-bottom: 0em;
+	text-indent: 0.01em;
+}
+.tab_noindent1
+{
+	padding-left: 0.5em;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+.tab_noindent2
+{
+	padding-left: 0.5em;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	margin-left: 1.5em;
+	text-indent: 0.01em;
+}
+.tab_noindento
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+.tab_noindento1
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+.tab_noindento2
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+.tab_source
+{
+	padding-left: 0.5em;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+.tab_sourcet
+{
+	padding-left: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+.tab_noindentt
+{
+	padding-left: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+	text-indent: 0.01em;
+}
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+td
+{
+	vertical-align: top;
+}
+th
+{
+	vertical-align: bottom;
+}
+.border
+{
+	padding-left: 0.5em;
+	border-bottom: solid black 0.01em;
+	border-left: solid black 0.01em;
+	background-color: #D9E0E8;
+}
+.borders
+{
+	padding-left: 0.5em;
+	border-left: solid black 0.01em;
+	background-color: #D9E0E8;
+}
+.line
+{
+	margin-top: 1em;
+	margin-bottom: 0em;
+	border-bottom: solid black 0.01em;
+	border-top: solid black 0.01em;
+}
+.linea
+{
+	margin-top: 0em;
+	margin-bottom: 1em;
+	border-bottom: solid black 0.01em;
+	border-top: solid black 0.01em;
+}
+.bordera
+{
+	padding-left: 0.5em;
+	border-top: solid black 0.01em;
+	border-bottom: solid black 0.01em;
+	border-left: solid black 0.01em;
+	background-color: #D9E0E8;
+}
+.borderaa
+{
+	padding-left: 0.5em;
+	border-top: solid black 0.01em;
+	border-bottom: solid black 0.01em;
+	background-color: #D9E0E8;
+}
+.border1
+{
+	padding-left: 0.5em;
+	border: solid black 0.01em;
+	border-bottom: solid black 0.01em;
+}
+.border1sa
+{
+	padding-left: 0.5em;
+}
+.border1aa
+{
+	border: solid black 0.01em;
+	border-bottom: solid black 0.01em;
+}
+.border1s
+{
+	padding-left: 0.5em;
+	border-left: solid black 0.01em;
+}
+.border3
+{
+	padding-left: 0.5em;
+}
+.tab_noindentc
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	text-align: center;
+}
+.tab_noindentca
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+.noindent1
+{
+	margin-top: 1.2em;
+	margin-bottom: 0.2em;
+	text-indent: 0.01em;
+}
+.noindento1
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	margin-left: 0.8em;
+	text-indent: 0.01em;
+}
+.indento
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+        margin-left: 3em;
+}
+.center
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.center2
+{
+	margin-top: 0em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.center1
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 9em;
+	text-indent: 0em;
+}
+.center1z
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0.1em;
+	text-indent: 0em;
+}
+.indexmain
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-align: left;
+        margin-left: 2em;
+        text-indent: -2em;
+}
+.indexmain1
+{
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+	text-align: left;
+        color: #0000FF;
+        margin-left: 2em;
+        text-indent: -2em;
+}
+.indexsub
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-indent: 0em;
+        margin-left: 4.3em;
+        text-indent: -2em;
+	text-align: left;
+}
+.pagebreak
+{
+	pagebreak-before: always;
+}
+.indenttop
+{
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-indent: 0.01em;
+	margin-left: 2em;
+}
+.border-1
+{
+	border-left: solid black 0.01em;
+	border-bottom: solid black 0.01em;
+}
+.noindenttop-z
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-indent: 0.01em;
+}
+.b1
+{
+	margin-left: 20em;
+
+}
+.cl
+{
+text-align:left;
+}

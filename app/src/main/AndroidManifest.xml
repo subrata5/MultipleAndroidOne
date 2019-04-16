@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.subrata.firstapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Search"
+        android:roundIcon="@drawable/search_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".UI.LoginUi"
+            android:theme="@style/AppTheme_no_action">
+
+        </activity>
+        <activity android:name=".WebviewSearch">
+
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".rippleEffect.Ripple" >
+
+        </activity>
+        <activity
+            android:name=".listViewExample.ListViewAndroid"
+            android:theme="@style/AppTheme_no_action" >
+
+        </activity>
+        <activity
+            android:name=".asyncTaskExample.AsyncTaskDemo"
+            android:theme="@style/AppTheme_no_action" >
+
+        </activity>
+        <activity
+            android:name=".listViewExample.MovieDescription"
+            android:theme="@style/AppTheme_no_action" >
+
+        </activity>
+        <activity android:name=".retrofitExample.RetroFit" >
+
+        </activity>
+        <activity android:name=".recyclerViewExample.RecyclerViewActivity" >
+
+        </activity>
+        <activity android:name=".volleyExample.VolleyActivity" >
+
+        </activity>
+        <activity android:name=".glideExample.GlideActivity" >
+
+        </activity>
+        <activity android:name=".volleyExample.UserDetails" />
+        <activity android:name=".volleyExample.WebViewActivity" />
+        <activity android:name=".InfiniteScrollExample.InfiniteScrollActivity" >
+
+        </activity>
+        <activity android:name=".WeatherApp.WeatherAppTry">
+
+        </activity>
+        <activity
+            android:name=".barCodeScanner.BarCodeScanner"
+            android:label="@string/title_activity_bar_code_scanner"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+    </application>
+
+</manifest>

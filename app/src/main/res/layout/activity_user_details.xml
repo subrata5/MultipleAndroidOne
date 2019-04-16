@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".volleyExample.UserDetails"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ud_imgUser"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars[1]" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Andrew Philips"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"/>
+
+
+    <TextView
+        android:id="@+id/txtCompany"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Company:"
+        />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Location:"
+        />
+
+    <TextView
+        android:id="@+id/txtFollowers"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Followers:"
+        />
+
+    <TextView
+        android:id="@+id/txtFollowing"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Following:"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgWebsite"
+            android:padding="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/webiste_new"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp" />
+
+        <ImageView
+            android:id="@+id/imgGitHub"
+            android:padding="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/git_new"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
