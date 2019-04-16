@@ -32,8 +32,8 @@ public class WebviewSearch extends AppCompatActivity implements View.OnClickList
 
         mWebView = (WebView) findViewById(R.id.webview);
         mWebView.setWebViewClient(new WebViewClient());
-        //mWebView.loadUrl("https://granta.com/cracking-up/");
-        mWebView.loadUrl("file:///android_asset/index.html");
+        mWebView.loadUrl("https://granta.com/cracking-up/");
+
 
         nextButton = (Button) findViewById(R.id.nextButton);
         closeButton = (Button) findViewById(R.id.closeButton);
