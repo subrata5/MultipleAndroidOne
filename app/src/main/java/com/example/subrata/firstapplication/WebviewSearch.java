@@ -112,7 +112,6 @@ public class WebviewSearch extends AppCompatActivity implements View.OnClickList
             container.setVisibility(RelativeLayout.GONE);
         }
     }
-
     //Back button click function
     //To go the previous web-page, instead of closing the app.
     @Override

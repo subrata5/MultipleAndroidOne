@@ -12,13 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".UI.LoginUi"
-            android:theme="@style/AppTheme_no_action">
-
-        </activity>
-        <activity android:name=".WebviewSearch">
-
-        </activity>
+        <activity android:name=".GetOsRetrofit.ListActivity"></activity>
+        <activity android:name=".GetOsRetrofit.GetOsRetro" />
+        <activity
+            android:name=".UI.LoginUi"
+            android:theme="@style/AppTheme_no_action" />
+        <activity android:name=".WebviewSearch" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,50 +30,28 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".rippleEffect.Ripple" >
-
-        </activity>
+        <activity android:name=".rippleEffect.Ripple" />
         <activity
             android:name=".listViewExample.ListViewAndroid"
-            android:theme="@style/AppTheme_no_action" >
-
-        </activity>
+            android:theme="@style/AppTheme_no_action" />
         <activity
             android:name=".asyncTaskExample.AsyncTaskDemo"
-            android:theme="@style/AppTheme_no_action" >
-
-        </activity>
+            android:theme="@style/AppTheme_no_action" />
         <activity
             android:name=".listViewExample.MovieDescription"
-            android:theme="@style/AppTheme_no_action" >
-
-        </activity>
-        <activity android:name=".retrofitExample.RetroFit" >
-
-        </activity>
-        <activity android:name=".recyclerViewExample.RecyclerViewActivity" >
-
-        </activity>
-        <activity android:name=".volleyExample.VolleyActivity" >
-
-        </activity>
-        <activity android:name=".glideExample.GlideActivity" >
-
-        </activity>
+            android:theme="@style/AppTheme_no_action" />
+        <activity android:name=".retrofitExample.RetroFit" />
+        <activity android:name=".recyclerViewExample.RecyclerViewActivity" />
+        <activity android:name=".volleyExample.VolleyActivity" />
+        <activity android:name=".glideExample.GlideActivity" />
         <activity android:name=".volleyExample.UserDetails" />
         <activity android:name=".volleyExample.WebViewActivity" />
-        <activity android:name=".InfiniteScrollExample.InfiniteScrollActivity" >
-
-        </activity>
-        <activity android:name=".WeatherApp.WeatherAppTry">
-
-        </activity>
+        <activity android:name=".InfiniteScrollExample.InfiniteScrollActivity" />
+        <activity android:name=".WeatherApp.WeatherAppTry" />
         <activity
             android:name=".barCodeScanner.BarCodeScanner"
             android:label="@string/title_activity_bar_code_scanner"
-            android:theme="@style/AppTheme.NoActionBar" >
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

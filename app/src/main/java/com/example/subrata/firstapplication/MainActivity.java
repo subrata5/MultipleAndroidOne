@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.subrata.firstapplication.GetOsRetrofit.GetOsRetro;
 import com.example.subrata.firstapplication.InfiniteScrollExample.InfiniteScrollActivity;
 import com.example.subrata.firstapplication.UI.LoginUi;
 import com.example.subrata.firstapplication.asyncTaskExample.AsyncTaskDemo;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView listView;
     private String[] items = new String[] {"Async Demo", "Bar code Scanner", "Glide", "Infinite Scroll",
-    "Movie List", "RecyclerView", "Retrofit", "Login", "Volley Users", "WebView Search"};
+    "Movie List", "RecyclerView", "Retrofit", "Login", "Volley Users", "WebView Search", "GetOsRetro"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +100,11 @@ public class MainActivity extends AppCompatActivity {
                 else if(position == 9)
                 {
                     Intent intent = new Intent(MainActivity.this, WebviewSearch.class);
+                    startActivity(intent);
+                }
+                else if(position == 10)
+                {
+                    Intent intent = new Intent(MainActivity.this, GetOsRetro.class);
                     startActivity(intent);
                 }
 
