@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.subrata.firstapplication.GetOsRetrofit.GetOsRetro;
 import com.example.subrata.firstapplication.InfiniteScrollExample.InfiniteScrollActivity;
+import com.example.subrata.firstapplication.MvpPatternValidation.MvpPattern;
 import com.example.subrata.firstapplication.UI.LoginUi;
 import com.example.subrata.firstapplication.asyncTaskExample.AsyncTaskDemo;
 import com.example.subrata.firstapplication.barCodeScanner.BarCodeScanner;
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView listView;
     private String[] items = new String[] {"Async Demo", "Bar code Scanner", "Glide", "Infinite Scroll",
-    "Movie List", "RecyclerView", "Retrofit", "Login", "Volley Users", "WebView Search", "GetOsRetro"};
+    "Movie List", "RecyclerView", "Retrofit", "Login", "Volley Users", "WebView Search", "GetOsRetro", "MVP pattern"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,6 +106,11 @@ public class MainActivity extends AppCompatActivity {
                 else if(position == 10)
                 {
                     Intent intent = new Intent(MainActivity.this, GetOsRetro.class);
+                    startActivity(intent);
+                }
+                else if(position == 11)
+                {
+                    Intent intent = new Intent(MainActivity.this, MvpPattern.class);
                     startActivity(intent);
                 }
 
