@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_view"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    tools:context=".EmojiKeyboardApp.EmojiKeyboard">
+
+
+    <ImageView
+        android:id="@+id/emoji_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/emoji_icon"
+        android:padding="4dp"/>
+
+    <ImageView
+        android:id="@+id/send_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/send"
+        android:padding="4dp"/>
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+        android:id="@+id/emojiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/emoji_button"
+        android:layout_toLeftOf="@id/send_button"
+        emojicon:emojiconSize="28sp"
+        />
+
+
+
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="24dp"
+        android:text="Emoji Keyboard"
+        android:textColor="#000000"
+        emojicon:emojiconSize="45sp"
+        emojicon:emojiconUseSystemDefault="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:layout_marginTop="8dp"
+        android:text="Use System Default?"
+        android:textColor="#000000"/>
+
+
+</RelativeLayout>

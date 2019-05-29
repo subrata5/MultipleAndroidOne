@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MvpPatternValidation.MvpPattern"></activity>
+        <activity android:name=".EmojiKeyboardApp.EmojiKeyboard"></activity>
+        <activity android:name=".FontAwsomeAndroidLib.FontAwsome" />
+        <activity android:name=".FcmDbReadWrite.FcmDbRealtime" />
+        <activity android:name=".MvpPatternValidation.MvpPattern" />
         <activity android:name=".GetOsRetrofit.ListActivity" />
         <activity android:name=".GetOsRetrofit.GetOsRetro" />
         <activity

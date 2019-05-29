@@ -12,6 +12,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.subrata.firstapplication.EmojiKeyboardApp.EmojiKeyboard;
+import com.example.subrata.firstapplication.FcmDbReadWrite.FcmDbRealtime;
+import com.example.subrata.firstapplication.FontAwsomeAndroidLib.FontAwsome;
 import com.example.subrata.firstapplication.GetOsRetrofit.GetOsRetro;
 import com.example.subrata.firstapplication.InfiniteScrollExample.InfiniteScrollActivity;
 import com.example.subrata.firstapplication.MvpPatternValidation.MvpPattern;
@@ -29,8 +32,9 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private ListView listView;
-    private String[] items = new String[] {"Async Demo", "Bar code Scanner", "Glide", "Infinite Scroll",
-    "Movie List", "RecyclerView", "Retrofit", "Login", "Volley Users", "WebView Search", "GetOsRetro", "MVP pattern"};
+    private String[] items = new String[]{"Async Demo", "Bar code Scanner", "Glide", "Infinite Scroll",
+            "Movie List", "RecyclerView", "Retrofit", "Login", "Volley Users", "WebView Search", "GetOsRetro", "MVP pattern",
+            "FcmDbRealtime", "FontAwesome Library", "Emoji Keyword"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,64 +57,50 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Toast.makeText(MainActivity.this, "position: "+position, Toast.LENGTH_SHORT).show();
-                if(position == 0)
-                {
+                if (position == 0) {
                     Intent intent = new Intent(MainActivity.this, AsyncTaskDemo.class);
                     startActivity(intent);
-                }
-                else if(position == 1)
-                {
+                } else if (position == 1) {
                     Intent intent = new Intent(MainActivity.this, BarCodeScanner.class);
                     startActivity(intent);
-                }
-                else if(position == 2)
-                {
+                } else if (position == 2) {
                     Intent intent = new Intent(MainActivity.this, GlideActivity.class);
                     startActivity(intent);
-                }
-                else if(position == 3)
-                {
+                } else if (position == 3) {
                     Intent intent = new Intent(MainActivity.this, InfiniteScrollActivity.class);
                     startActivity(intent);
-                }
-                else if(position == 4)
-                {
+                } else if (position == 4) {
                     Intent intent = new Intent(MainActivity.this, ListViewAndroid.class);
                     startActivity(intent);
-                }
-                else if(position == 5)
-                {
+                } else if (position == 5) {
                     Intent intent = new Intent(MainActivity.this, RecyclerViewActivity.class);
                     startActivity(intent);
-                }
-                else if(position == 6)
-                {
+                } else if (position == 6) {
                     Intent intent = new Intent(MainActivity.this, RetroFit.class);
                     startActivity(intent);
-                }
-                else if(position == 7)
-                {
+                } else if (position == 7) {
                     Intent intent = new Intent(MainActivity.this, LoginUi.class);
                     startActivity(intent);
-                }
-                else if(position == 8)
-                {
+                } else if (position == 8) {
                     Intent intent = new Intent(MainActivity.this, VolleyActivity.class);
                     startActivity(intent);
-                }
-                else if(position == 9)
-                {
+                } else if (position == 9) {
                     Intent intent = new Intent(MainActivity.this, WebviewSearch.class);
                     startActivity(intent);
-                }
-                else if(position == 10)
-                {
+                } else if (position == 10) {
                     Intent intent = new Intent(MainActivity.this, GetOsRetro.class);
                     startActivity(intent);
-                }
-                else if(position == 11)
-                {
+                } else if (position == 11) {
                     Intent intent = new Intent(MainActivity.this, MvpPattern.class);
+                    startActivity(intent);
+                } else if (position == 12) {
+                    Intent intent = new Intent(MainActivity.this, FcmDbRealtime.class);
+                    startActivity(intent);
+                }else if(position == 13){
+                    Intent intent = new Intent(MainActivity.this, FontAwsome.class);
+                    startActivity(intent);
+                }else if(position == 14){
+                    Intent intent = new Intent(MainActivity.this, EmojiKeyboard.class);
                     startActivity(intent);
                 }
 

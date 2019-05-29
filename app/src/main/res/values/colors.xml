@@ -6,4 +6,9 @@
 
     <color name="black_dark">#212121</color>
     <color name="black_light">#424242</color>
+
+    <color name="color_red">#87050f</color>
+    <color name="color_blue">#053787</color>
+
+    <color name="icon_color">#6a88b7</color>
 </resources>

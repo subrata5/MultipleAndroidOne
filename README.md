@@ -13,3 +13,6 @@ List of Activities:
 10. Webview Search
 11. GetOsByRetrofit 
 12. MVP Pattern Check
+13. FCM Db Realtime
+14. Font Awesome Library
+15. Emoji Keyword.

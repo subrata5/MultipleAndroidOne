@@ -71,5 +71,20 @@ dependencies {
     //TextInput - outlined text
     implementation 'com.android.support:design:28.0.0-alpha1'
 
+    //Firebase Cloud Messaging implementation for the Firebase cloud functionality
+    implementation 'com.google.firebase:firebase-core:16.0.9'
+
+    //Firebase real-time database
+    implementation 'com.google.firebase:firebase-database:17.0.0'
+
+    //Library for the font awsome android library
+    implementation 'info.androidhive:fontawesome:0.0.5'
+
+    // Supernova Emoji
+    implementation 'hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2'
+
 
 }
+
+//File to be include so as Firebase to work.
+apply plugin: 'com.google.gms.google-services'
