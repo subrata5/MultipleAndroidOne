@@ -1,13 +1,12 @@
 package com.example.subrata.firstapplication.EmojiKeyboardApp;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.example.subrata.firstapplication.R;
 

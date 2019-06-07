@@ -3,21 +3,22 @@ package com.example.subrata.firstapplication;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.subrata.firstapplication.BlurImageDemo.WorkManagerDemo.WorkManagerExample;
 import com.example.subrata.firstapplication.EmojiKeyboardApp.EmojiKeyboard;
 import com.example.subrata.firstapplication.FcmDbReadWrite.FcmDbRealtime;
 import com.example.subrata.firstapplication.FontAwsomeAndroidLib.FontAwsome;
 import com.example.subrata.firstapplication.GetOsRetrofit.GetOsRetro;
 import com.example.subrata.firstapplication.InfiniteScrollExample.InfiniteScrollActivity;
 import com.example.subrata.firstapplication.MvpPatternValidation.MvpPattern;
+import com.example.subrata.firstapplication.TextToSpeechDemo.TextToSpeechActivity;
 import com.example.subrata.firstapplication.UI.LoginUi;
 import com.example.subrata.firstapplication.asyncTaskExample.AsyncTaskDemo;
 import com.example.subrata.firstapplication.barCodeScanner.BarCodeScanner;
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView;
     private String[] items = new String[]{"Async Demo", "Bar code Scanner", "Glide", "Infinite Scroll",
             "Movie List", "RecyclerView", "Retrofit", "Login", "Volley Users", "WebView Search", "GetOsRetro", "MVP pattern",
-            "FcmDbRealtime", "FontAwesome Library", "Emoji Keyword"};
+            "FcmDbRealtime", "FontAwesome Library", "Emoji Keyword", "Text To Speech", "Work Manager"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,11 +97,17 @@ public class MainActivity extends AppCompatActivity {
                 } else if (position == 12) {
                     Intent intent = new Intent(MainActivity.this, FcmDbRealtime.class);
                     startActivity(intent);
-                }else if(position == 13){
+                } else if (position == 13) {
                     Intent intent = new Intent(MainActivity.this, FontAwsome.class);
                     startActivity(intent);
-                }else if(position == 14){
+                } else if (position == 14) {
                     Intent intent = new Intent(MainActivity.this, EmojiKeyboard.class);
+                    startActivity(intent);
+                } else if (position == 15) {
+                    Intent intent = new Intent(MainActivity.this, TextToSpeechActivity.class);
+                    startActivity(intent);
+                } else if (position == 16) {
+                    Intent intent = new Intent(MainActivity.this, WorkManagerExample.class);
                     startActivity(intent);
                 }
 

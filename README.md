@@ -15,4 +15,6 @@ List of Activities:
 12. MVP Pattern Check
 13. FCM Db Realtime
 14. Font Awesome Library
-15. Emoji Keyword.
+15. Emoji Keyword
+16. Text To Speech
+17. Work Manager

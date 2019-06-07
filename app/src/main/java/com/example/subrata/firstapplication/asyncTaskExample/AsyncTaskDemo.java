@@ -4,24 +4,18 @@ import android.app.ProgressDialog;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.SpannableString;
-import android.text.Spanned;
-import android.text.style.TypefaceSpan;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.subrata.firstapplication.MainActivity;
 import com.example.subrata.firstapplication.R;
 import com.wang.avi.AVLoadingIndicatorView;
 
-import java.net.Inet4Address;
 import java.util.Locale;
-import java.util.PriorityQueue;
 
 public class AsyncTaskDemo extends AppCompatActivity {
 

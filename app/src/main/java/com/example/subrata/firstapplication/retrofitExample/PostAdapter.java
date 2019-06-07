@@ -1,9 +1,9 @@
 package com.example.subrata.firstapplication.retrofitExample;
 
 import android.content.Context;
-import android.icu.util.ValueIterator;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,18 +14,12 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.example.subrata.firstapplication.Item;
 import com.example.subrata.firstapplication.R;
-import com.example.subrata.firstapplication.listViewExample.ListViewAndroid;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import org.w3c.dom.Element;
-import org.w3c.dom.Text;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder> {
 

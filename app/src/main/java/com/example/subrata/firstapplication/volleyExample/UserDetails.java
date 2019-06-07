@@ -1,7 +1,7 @@
 package com.example.subrata.firstapplication.volleyExample;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -18,8 +18,6 @@ import com.bumptech.glide.Glide;
 import com.example.subrata.firstapplication.R;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
-import org.w3c.dom.Text;
 
 public class UserDetails extends AppCompatActivity {
 
